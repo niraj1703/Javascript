@@ -26,7 +26,7 @@ const gameName = new String('hitesh-hc-com')
 //console.log(newStringOne);
 //console.log(newStringOne.trim());
 
-const url = "https://hitesh.com/hitesh%20choudhary"
+//const url = "https://hitesh.com/hitesh%20choudhary"
 
 //console.log(url.replace('%20', '-'))
 
@@ -34,3 +34,6 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 //console.log(url+('%23'))
 
 console.log(gameName.split('-'));
+
+//const dogNames = ["Rocket", "Flash", "Bella", "Slugger"];
+//dogNames.toString(); // Rocket,Flash,Bella,Slugger

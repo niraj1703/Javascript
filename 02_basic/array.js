@@ -9,18 +9,29 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 //console.log(myArr.length);     //you find out the length (in characters) of a string — by using the length
 
-
 // Array methods
 
+                          // Adding items
 //myHeors.push("niraj")
 //myHeors.push(6)
 //myHeors.push(9)
 //myHeors.push(6)
+// myHeors.push(7)
 //myHeors.unshift(6)
-// myHeors.pop()
- //myHeors.shift(6)
- // myHeors.push(7)
+
 // console.log(myHeors)
+
+                 //Removing items
+
+//myHeors.shift(6)
+// myHeors.pop()
+myHeors.splice( 1);
+console.log(myHeors)
+
+
+
+                  // Finding the index of items in an array
+                  
 
  //console.log(myHeors.includes(9));
  //console.log(myArr2.indexOf(3));
@@ -43,3 +54,22 @@ const myn1 = myArr.slice(1, 3)
 //const myn2 = myArr.splice(1, 3)
 //console.log("C ", myArr);
 //console.log(myn2);
+
+
+
+
+
+              //Converting between strings and arrays
+//const cities = data.split(",");
+//cities;
+
+
+
+//console.log(gameName.split('-'));
+
+//const dogNames = ["Rocket", "Flash", "Bella", "Slugger"];
+//dogNames.toString(); // Rocket,Flash,Bella,Slugger
+
+
+//const commaSeparated = cities.join(",");
+//commaSeparated;

@@ -32,3 +32,25 @@ const hundreds = 1000000
 //const max = 20
 
 //console.log(Math.floor(Math.random() * (max - min + 1)) + min)//
+
+
+
+//function double(number) {
+  //  return number * 2;
+//}
+//const numbers = [5, 2, 7, 6];
+//const doubled = numbers.map(double);
+//console.log(doubled); // [ 10, 4, 14, 12 ]
+/* function isLong(city) {
+  return city.length > 8;
+}
+const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
+const longer = cities.filter(isLong);
+console.log(longer);*/
+
+//const cities = data.split(",");
+//cities;
+
+
+
+
